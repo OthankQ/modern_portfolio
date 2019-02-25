@@ -1,7 +1,7 @@
 $primary-color: #6fa1e0;
 $secondary-color: #eece1a;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
+// $home-image: url(../img/background.jpg);
 $background-opacity: 1;
 
 @mixin easeOut {
@@ -11,9 +11,9 @@ $background-opacity: 1;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home-image;
-      background-attachment: fixed;
-      background-size: cover;
+      // background: $home-image;
+      // background-attachment: fixed;
+      // background-size: cover;
       &:after {
         content: "";
         position: absolute;
