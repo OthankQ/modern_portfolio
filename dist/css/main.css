@@ -60,6 +60,7 @@
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #eece1a;
       opacity: 0;
@@ -170,7 +171,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 40px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -281,7 +283,11 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     grid-template-columns: 1fr; }
   .job {
     margin-bottom: 30px; }
